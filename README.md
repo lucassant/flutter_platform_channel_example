@@ -7,7 +7,7 @@ Aplicativo em Flutter que exibe o status do modo avião do celular via Broadcast
   - BroadcastReceiver
   - MethodChannel
   - EventChannel  
-  
+  - Observable
 
 
 <p align="center">

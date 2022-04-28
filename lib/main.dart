@@ -78,9 +78,9 @@ class _MyHomePageState extends State<MyHomePage> {
                 stream: EventChannelApi.getAirplaneModeStream,
                 builder: (context, snapshot) {
                   if (snapshot.hasData) {
-                    return const Text('No data');
+                    return Text('AirplaneMode enabled: ${snapshot.data}');
                   }
-                  return Text('AirplaneMode enabled: ${snapshot.data}');
+                  return const Text('No data');
                 }),
           ],
         ),
